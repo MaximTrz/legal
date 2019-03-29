@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+input,
+button:focus {
+  outline: none;
+}
+
+.head {
+  background: #1a1a1a url("../img/maniMenu/bgc.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.head .headBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logoBox__img {
+  height: 65px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.logoBox__text {
+  font-size: 17px;
+  color: #fe6367;
+}
+
+.logoBox__text span {
+  display: block;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.phone__icon {
+  height: 20px;
+  width: auto;
+}
+
+.container {
+  max-width: 1220px;
+}
+
+.btn {
+  font-size: 13px;
+  background-color: #b3000d;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e60011;
+}

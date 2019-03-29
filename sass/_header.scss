@@ -1,0 +1,46 @@
+.head{
+    background: #1a1a1a url(../img/maniMenu/bgc.jpg) center no-repeat;
+    background-size: cover;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .headBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.logoBox{
+    display: flex;
+    align-items: center;
+    &__img{
+        height: 65px;
+        width: auto;
+        margin-right: 15px;
+    }
+    &__text{
+        font-size: 17px;
+        color: rgb(254, 99, 103);
+        span{
+            display: block;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+    }
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    &__icon{
+        height: 20px;
+        width: auto;
+    }
+}
