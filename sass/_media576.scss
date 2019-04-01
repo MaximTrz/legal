@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px){
+
+ .hidenMD{
+    display: none;
+ }
+
+ /*******************************mainSlider**************************/
+
+ .main{
+    padding-top: 100px;
+ }
+
+ .mainSlider{
+    &__item{
+        .itemTitle{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .itemText{
+            font-size: 18px;
+        }        
+    }
+    .prev{
+        left: -5px;
+    }
+    .next{
+        right: -5px;
+    }
+}
+
+
+
+ /******************************************************************/
+    
+    
+        
+    
+}

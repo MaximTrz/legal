@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px){
+
+/********************************MainSlider******************/
+
+.mainSlider{
+
+
+    .prev{
+        left: 0;
+        top: 30%;
+        height: 65px;
+        width: 20px;
+        z-index: 20;
+        background: url(../img/main/LeftArrow.png) center no-repeat;
+        border: none;
+    }
+    .next{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        height: 65px;
+        width: 20px;
+        z-index: 20;
+        background: url(../img/main/RightArrow.png) center no-repeat;
+        border: none;
+    }
+}
+
+
+
+/**********************************************************/
+
+
+
+}

@@ -183,3 +183,85 @@ button:focus {
 .btn_main:hover {
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  /********************************MainSlider******************/
+
+  .mainSlider .prev {
+    left: 0;
+    top: 30%;
+    height: 65px;
+    width: 20px;
+    z-index: 20;
+    background: url("../img/main/LeftArrow.png") center no-repeat;
+    border: none;
+  }
+
+  .mainSlider .next {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    height: 65px;
+    width: 20px;
+    z-index: 20;
+    background: url("../img/main/RightArrow.png") center no-repeat;
+    border: none;
+  }
+
+  /**********************************************************/
+}
+
+@media screen and (max-width: 576px) {
+  .hidenMD {
+    display: none;
+  }
+
+  /*******************************mainSlider**************************/
+
+  .main {
+    padding-top: 100px;
+  }
+
+  .mainSlider__item .itemTitle {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .mainSlider__item .itemText {
+    font-size: 18px;
+  }
+
+  .mainSlider .prev {
+    left: -5px;
+  }
+
+  .mainSlider .next {
+    right: -5px;
+  }
+
+  /******************************************************************/
+}
+
+@media screen and (max-width: 320px) {
+  .hidenSM {
+    display: none;
+  }
+
+  /*******************************mainSlider**************************/
+
+  .mainSlider__item .itemTitle {
+    font-size: 25px;
+    line-height: 1.5;
+    text-transform: none;
+  }
+
+  .mainSlider .prev {
+    left: -5px;
+  }
+
+  .mainSlider .next {
+    right: -5px;
+  }
+
+  /******************************************************************/
+}
