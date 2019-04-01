@@ -2,6 +2,7 @@
 @import 'reset.scss';
 @import 'header.scss';
 @import 'main.scss';
+@import 'mainNav.scss';
 
 
 .container{
@@ -36,7 +37,10 @@
     margin-left: auto;
     margin-right: auto;
     &:hover{
-        border: none;
+        border: 2px solid $mainRed;
+        background-color: transparent;
+        color: $mainRed;
+
     }
 }
 
