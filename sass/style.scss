@@ -1,6 +1,8 @@
 @import 'colors.scss';
 @import 'reset.scss';
-@import 'head.scss';
+@import 'header.scss';
+@import 'main.scss';
+
 
 .container{
     max-width: 1220px;
@@ -20,5 +22,20 @@
     &:hover{
         background-color: lighten($mainRed, 10%);
     }
+}
 
+.btn_main{
+    background-color: transparent;
+    border: 2px solid  rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 2px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: block;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover{
+        border: none;
+    }
 }
