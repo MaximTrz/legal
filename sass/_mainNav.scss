@@ -1,9 +1,47 @@
 .mainNav{
-    height: 40px;
     width: 100%;
-    background-color: red;
-    bottom: -40px;
+    background-color: rgba(30, 30, 30, .5);
+    bottom: -65px;
     left: 0;
     position: absolute;
-    z-index: 500;    
+    z-index: 500;
+    display: block;
+    
+    &__link{
+        text-decoration: none;
+        font-size: 17px;        
+        color: rgb(255, 255, 255);
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        border-right: 1px dotted #6c6c6b;
+        padding-left: 30px;
+        padding-right: 30px;
+        &:hover{
+            color: $mainRed; 
+        }
+        
+        &_last{
+            border-right: none;
+        }
+    }
+}
+
+.mainNavList{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 0;    
+    padding: 0;
+
+    &__item{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+
+        &:hover{
+            border-top: 2px solid $mainRed; 
+            color: $mainRed; 
+        }
+    }
 }

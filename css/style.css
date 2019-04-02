@@ -149,13 +149,56 @@ button:focus {
 }
 
 .mainNav {
-  height: 40px;
   width: 100%;
-  background-color: red;
-  bottom: -40px;
+  background-color: rgba(30, 30, 30, 0.5);
+  bottom: -65px;
   left: 0;
   position: absolute;
   z-index: 500;
+  display: block;
+}
+
+.mainNav__link {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px dotted #6c6c6b;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mainNav__link:hover {
+  color: #b3000d;
+}
+
+.mainNav__link_last {
+  border-right: none;
+}
+
+.mainNavList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNavList__item {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mainNavList__item:hover {
+  border-top: 2px solid #b3000d;
+  color: #b3000d;
 }
 
 .container {
@@ -220,6 +263,18 @@ button:focus {
     z-index: 20;
     background: url("../img/main/RightArrow.png") center no-repeat;
     border: none;
+  }
+
+  /**********************************************************/
+
+  /********************************MainNab******************/
+
+  .mainNav {
+    bottom: -58px;
+  }
+
+  .mainNav__link {
+    font-size: 12px;
   }
 
   /**********************************************************/
