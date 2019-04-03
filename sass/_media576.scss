@@ -8,6 +8,24 @@
      display: block;
  }
 
+
+/*****************************Header*********************************/
+
+
+
+.header{
+    background: #1a1a1a;
+}
+
+
+
+
+
+/*******************************************************************/
+
+
+
+
  /*******************************mainSlider**************************/
 
  .main{
@@ -36,7 +54,42 @@
 
  /******************************************************************/
     
+ /******************************mainNav***************************/
+ 
+ .mainNav{
+   position: static;
+   margin-top: 20px;
+   background-color: #1a1a1a;
     
+    &__link{
+        font-size: 17px;
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+        border-right: none;        
+    }
+}
+ 
+ 
+ .mainNavList{
+    display: block;
+    
+    &__item{
+        display: block;
+        padding-top: 10;
+        padding-bottom: 0;               
+
+        &:hover{
+            border-top: none; 
+            color: $mainRed; 
+        }
+    }
+}
+ 
+
+
+
+ /****************************************************************/
         
     
 }

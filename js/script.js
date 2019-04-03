@@ -8,11 +8,7 @@ const menuButton = document.querySelector(".buttonMenuBox"),
 menuButton.addEventListener("click", ()=>{
     if (menuBox.classList.contains('hidenMD')){
         menuBox.classList.remove('hidenMD');
-        mainNavList.style.display = "block";
-        menuBox.style.position = "relative";      
-
     } else {
         menuBox.classList.add("hidenMD");      
     }
-
 });

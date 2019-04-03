@@ -327,6 +327,14 @@ button:focus {
     display: block;
   }
 
+  /*****************************Header*********************************/
+
+  .header {
+    background: #1a1a1a;
+  }
+
+  /*******************************************************************/
+
   /*******************************mainSlider**************************/
 
   .main {
@@ -351,6 +359,39 @@ button:focus {
   }
 
   /******************************************************************/
+
+  /******************************mainNav***************************/
+
+  .mainNav {
+    position: static;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+  }
+
+  .mainNav__link {
+    font-size: 17px;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: none;
+  }
+
+  .mainNavList {
+    display: block;
+  }
+
+  .mainNavList__item {
+    display: block;
+    padding-top: 10;
+    padding-bottom: 0;
+  }
+
+  .mainNavList__item:hover {
+    border-top: none;
+    color: #b3000d;
+  }
+
+  /****************************************************************/
 }
 
 @media screen and (max-width: 320px) {
