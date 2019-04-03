@@ -207,7 +207,9 @@
 					<span>
 						Бухгалтерия и аутсорсинг
 					</span>
-					Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem является "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+					<a href="#">Регистрация компаний</a> 
+					<a href="#">Регистрация изменений</a> 
+					<a href="#">Добровольная ликвидация</a> 
 				</div>
 				<!-- /.servicesItem__text -->
 			</div>
@@ -219,6 +221,73 @@
 	<!-- /.container -->
 </section>
 <!-- /.services -->
+
+<section class="ourClients">
+	<div class="container">
+		<div class="ourClients__title">
+			Истории наших клиентов
+		</div>
+		<!-- /.ourClients__title -->
+
+		<div class="ClientsSlider">
+			<div>
+				<div class="ClientsSliderItem">
+					<img src="img/clients/client_1.jpg" alt="Клиент" class="ClientsSliderItem__img">
+					<div class="ClientsSliderItem__text">
+						<span>Иван Абрамович, 36 лет</span>
+						Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem является "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+						Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. 
+					</div>
+					<!-- /.ClientsSliderItem__text -->
+				</div>
+				<!-- /.ClientsSliderItem -->
+			</div>
+
+			<div>
+				<div class="ClientsSliderItem">
+					<img src="img/clients/client_1.jpg" alt="Клиент" class="ClientsSliderItem__img">
+					<div class="ClientsSliderItem__text">
+						<span>Иван Абрамович, 36 лет</span>
+						Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem является "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+						Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. 
+					</div>
+					<!-- /.ClientsSliderItem__text -->
+				</div>
+				<!-- /.ClientsSliderItem -->
+			</div>
+			<div>
+				<div class="ClientsSliderItem">
+					<img src="img/clients/client_1.jpg" alt="Клиент" class="ClientsSliderItem__img">
+					<div class="ClientsSliderItem__text">
+						<span>Иван Абрамович, 36 лет</span>
+						Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem является "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+						Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. 
+					</div>
+					<!-- /.ClientsSliderItem__text -->
+				</div>
+				<!-- /.ClientsSliderItem -->
+			</div>
+
+			<div>
+				<div class="ClientsSliderItem">
+					<img src="img/clients/client_1.jpg" alt="Клиент" class="ClientsSliderItem__img">
+					<div class="ClientsSliderItem__text">
+						<span>Иван Абрамович, 36 лет</span>
+						Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem является "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+						Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. 
+					</div>
+					<!-- /.ClientsSliderItem__text -->
+				</div>
+				<!-- /.ClientsSliderItem -->
+			</div>
+
+		</div>
+		<!-- /.ClientsSliderBox -->
+
+	</div>
+	<!-- /.container -->
+</section>
+<!-- /.ourClients -->
 
 
 
@@ -247,6 +316,25 @@ $('.mainSlider').slick({
 	prevArrow: '<button class="prev"></button>',
 	nextArrow: '<button class="next"></button>',
 });
+</script>
+
+<script>
+	$('.ClientsSlider').slick({
+		infinite: true,
+		arrows: false,
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true   
+      }
+    }
+  ]
+	});
 </script>
 
 <script src="js/script.js"></script>

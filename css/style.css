@@ -304,6 +304,17 @@ button:focus {
   border: 1px solid transparent;
 }
 
+.servicesItem a {
+  font-size: 14px;
+  color: #282828;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.servicesItem a:hover {
+  color: #b3000d;
+}
+
 .servicesItem:hover {
   border: 1px solid #d7d7d7;
   border-radius: 3px;
@@ -314,14 +325,52 @@ button:focus {
 }
 
 .servicesItem span {
+  font-size: 17px;
   display: block;
   text-transform: uppercase;
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .servicesItem__img {
   width: 110px;
   margin-bottom: 30px;
+}
+
+.ourClients {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #f2f2f2;
+}
+
+.ourClients__title {
+  text-align: center;
+  font-size: 31px;
+  color: #282828;
+  margin-bottom: 40px;
+}
+
+.ClientsSliderItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 560px;
+}
+
+.ClientsSliderItem__img {
+  max-width: 200px;
+}
+
+.ClientsSliderItem__text {
+  margin-left: 30px;
+  max-width: 360px;
 }
 
 .container {
@@ -408,8 +457,6 @@ button:focus {
 
   /***********************About*****************************/
 
-  /**********************************************************/
-
   .aboutBox {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -420,6 +467,19 @@ button:focus {
     -ms-flex-order: 2;
     order: 2;
   }
+
+  /**********************************************************/
+
+  /***********************servicess*****************************/
+
+  .servicesBox {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  /**********************************************************/
 }
 
 @media screen and (max-width: 576px) {
@@ -496,6 +556,16 @@ button:focus {
   }
 
   /****************************************************************/
+
+  /***********************servicess*****************************/
+
+  .servicesBox {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  /************************************************************/
 }
 
 @media screen and (max-width: 320px) {
