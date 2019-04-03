@@ -1,0 +1,43 @@
+.services{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    &__title{
+        font-size: 31px;
+        color: rgb(40, 40, 40);
+        text-align: center;
+        margin-bottom: 45px;
+    }
+}
+
+.servicesBox{
+    display: flex;
+    justify-content: space-between;
+}
+.servicesItem{
+    text-align: center;
+    flex-basis: 260px;
+    cursor: pointer;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #d7d7d7;
+        border-radius: 3px; 
+        
+        span{
+            color: $mainRed;
+        }
+
+    }    
+    span{
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &__img{
+        width: 110px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+.about{
+    background-color: #f2f2f2;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.aboutBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text{
+        font-size: 16px;
+        flex-basis: 730px;
+        span{
+            font-size: 25px;
+            color: rgb(40, 40, 40);
+            font-weight: bold;
+            display: block;
+        }        
+    }
+}
+
+.aboutImageBox{
+    flex-basis: 370px;
+}
