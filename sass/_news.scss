@@ -1,0 +1,50 @@
+.news{
+    padding-top: 55px;
+  
+    &__title{
+        font-size: 31px;        
+        color: $mainText;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+.newsItem{
+    display: flex;
+    max-width: 1144px;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    &__ImgBox{
+        flex-basis: 270px;
+    }
+    &__text{
+        flex-basis: 850px;
+        font-size: 14px;
+    }
+}
+
+.newsTitleBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        font-size: 17px;
+        color: $mainText;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__date{
+        font-size: 14px;
+        color: rgb(158, 158, 158);
+    }
+}
+
+.readMore{
+    margin-left: auto;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: rgb(189, 18, 26);
+    text-decoration: underline;
+
+}

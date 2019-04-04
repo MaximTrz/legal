@@ -94,5 +94,49 @@
     justify-content: center;
 }
 /************************************************************/
-    
+
+
+
+ /***********************Clients*****************************/
+
+ .ourClients{
+    &__title{
+        margin-bottom: 30px;
+    }
+}
+
+.ClientsSliderItem{
+    flex-wrap: wrap;
+    &__text{
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+}
+
+.ClientsImgBox{
+    margin-bottom: 20px;
+    flex-basis: 70%;
+}
+/************************************************************/    
+
+
+/***********************News*****************************/
+
+.newsItem{
+    flex-wrap: wrap;
+    justify-content: center;
+    &__ImgBox{
+        flex-basis: 270px;
+        margin-bottom: 15px;
+    }
+    &__text{
+        flex-basis: 400px;
+        font-size: 14px;
+    }
+}
+
+
+/**********************************************************/
+
+
 }

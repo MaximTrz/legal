@@ -6,6 +6,7 @@
 @import 'about.scss';
 @import 'services.scss';
 @import 'ourClients.scss';
+@import 'news.scss';
 
 
 .container{
@@ -51,7 +52,60 @@
     display: none;
 }
 
-
+.my-dots {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .my-dots li button {
+    display: block;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    background-color: $mainRed;
+    border-radius: 50%;
+    border: 3px solid $mainRed;
+    outline: none;
+  }
+  
+  .my-dots li button:hover,
+  .my-dots li button:focus {
+    outline: none;
+  }
+  
+  .my-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 20px;
+    height: 20px;
+    content: url('');
+    border-radius: 50%;
+    background-color: rgb(40, 40, 40);;
+    border: 5px solid white;
+    text-align: center;
+   }
+  
+  .my-dots li.slick-active button:before {
+    opacity: 0;
+  }
 
 @import 'media1200.scss';
 @import 'media768.scss';

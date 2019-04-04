@@ -13,13 +13,48 @@
 .ClientsSliderItem{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
     max-width: 560px;
-    &__img{
-        max-width: 200px;                
-    }
     &__text{
+        display: flex;
+        flex-direction: column;        
+        span{
+            display: block;
+            margin-bottom: 10px;
+            font-size: 17px;
+            color: rgb(40, 40, 40);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
         margin-left: 30px;
         max-width: 360px;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(40, 40, 40);
     }
+}
+
+.ClientsImgBox{
+    flex-basis: 165px;
+}
+
+.ClientsSkiderPrev{
+    position: absolute;
+    top: 30%;
+    left: -50px;
+    height: 65px;
+    width: 20px;
+    z-index: 20;
+    background: url(../img/clients/prevArrow.png) center no-repeat;
+    border: none;
+}
+.ClientsSkiderNext{
+    position: absolute;
+    right: -50px;
+    top: 30%;
+    height: 65px;
+    width: 20px;
+    z-index: 20;
+    background: url(../img/clients/nextArrow.png) center no-repeat;
+    border: none;
 }
