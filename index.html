@@ -423,41 +423,43 @@
 </script>
 
 <script>
-$('.mainSlider').slick({
-	infinite: true,
-	prevArrow: '<button class="prev"></button>',
-	nextArrow: '<button class="next"></button>',
-});
-</script>
 
-<script>
-$('.ClientsSlider').slick({
-	infinite: true,
-	slidesToShow: 2,
- 	slidesToScroll: 2,
-	prevArrow: '<button class="ClientsSkiderPrev"></button>',
-	nextArrow: '<button class="ClientsSkiderNext"></button>',
-	responsive: [
-    {
-      breakpoint: 769,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    },
-	{
-      breakpoint: 577,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-		arrows: false,
-		dots: true,
-		dotsClass: "my-dots"
-      }
-    }
-  ]
-	
+window.addEventListener('DOMContentLoaded', ()=>{
+	$('.mainSlider').slick({
+		infinite: true,
+		prevArrow: '<button class="prev"></button>',
+		nextArrow: '<button class="next"></button>',
+	});
+
+	$('.ClientsSlider').slick({
+		infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		prevArrow: '<button class="ClientsSkiderPrev"></button>',
+		nextArrow: '<button class="ClientsSkiderNext"></button>',
+		responsive: [
+			{
+				breakpoint: 769,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},
+		{
+				breakpoint: 577,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+			arrows: false,
+			dots: true,
+			dotsClass: "my-dots"
+				}
+			}
+		]
+		
+	});
 });
+
 </script>
 
 <script src="js/script.js"></script>
